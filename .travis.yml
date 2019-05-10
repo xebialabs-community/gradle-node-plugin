@@ -1,6 +1,7 @@
 language: groovy
-
 jdk:
 - oraclejdk7
-
-script: ./gradlew ci
+script: "./gradlew ci"
+notifications:
+  slack:
+    secure: KKRYmyKM/pNS6LwnUkmVZvYl2pmewD3DNac0mgr9cFYeEopFujmM2K8OMPblW+Qz3nZFBKjhbTGRewXcUpTAK/hzURBu+TfGQYDM1B061R6daAEFXL9Zxa17kVppPFc5Ahr7Kf2eLfmL+rySNSBvjDysIv7wsM5fZoVm/E+3S1nHSciIpj2mjgCVrKDW2ZvlH+hWlu8f0g4gZFHltFa+WODcnULSG67kjtpTyhrA9jhlshkS5yZUuKBj5uiZKRTHDhRxeCTuq/661Bq5yioclXQf5wfQHgThJVVJqcxWu/7xc9rrlqo14Mxg3w3eWStY/5UWasX9iWw1LxkNozMfnVTKQvg+k6ME+drkIPpFZb2MoIpZxvgQgo5qtkCcVBqz/QsVkwM2vslZHYyeIPyz5ts5ulzc+/6Q926BnxR+3b7RTSPJV1c+xDVzgMPNASuPvv8KFoGolzdkXTQTX52ctvjstY6M0C6ENLK4z1p9iz6RKMReoeRHYphXroY6Pv02PY0uQZqfXW69q7uG/yjhO8oBQ4C3F31JKZmumLXweSYwbLJwRWce8WImfDAaE5EcOLZDijRLDusvdNfwB4ydntQR8ZsgdUxZriPHKTHYYp/lkG0KdUY6E7z4dushPMgTOyco0ivsE1sDNFaDqw2acrJaq/ywU5PgB+NI/0f1Ers=
